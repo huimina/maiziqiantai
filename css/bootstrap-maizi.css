@@ -1,0 +1,198 @@
+body{
+	font-family: "microsoft sans serif";
+}
+.mai-icon{
+	background: rgb(64,210,177);
+	color: #fff;
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	line-height: 40px;
+	margin-right: 20px;
+}
+/*导航*/
+.navbar-default{
+	background: #fff;
+	border: none;
+	box-shadow: 0px 2px 8px 0px rgba(50,50,50,0.25);
+}
+.navbar-default .navbar-brand{
+	font-size: 30px;
+	font-weight: bold;
+	color: #40d2b1;
+	height: 70px;
+	line-height: 35px;
+}
+.navbar-default .navbar-nav>li>a{
+	font-size: 16px;
+	font-weight: bold;
+	color: #666;
+	height: 70px;
+	line-height: 35px;
+}
+.navbar-toggle{
+	margin-top: 17px;
+}
+.navbar-default .navbar-toggle :hover{
+	border-color: #40D2B1;
+	background: rgb(69,210,184);
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background: #40D2B1;
+}
+/*home*/
+#home{
+	background: url(../img/home-bg.jpg);
+    margin-top: 70px;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+.lvjing{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.7);
+	padding: 90px 0;
+}
+#home h1{
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+#home p{
+	font-weight: 400;
+	line-height: 35px;
+}
+#home img{
+	margin-top: 30px;
+	display: inline-block;
+}  
+#bbs{
+	padding: 80px 0;
+	text-align: center;
+}
+#bbs .col-md-4{
+	padding: 15px;
+}
+#bbs .col-md-4:hover{
+	background: #f1f1f1;
+	box-shadow: 1px 1px 4px #ccc;
+}
+#bbs a{
+	color: #212121;
+	text-decoration: none;
+	
+	
+}
+#bbs img{
+	margin: 0 auto;
+}
+#bbs h3{
+	font-weight: bold;
+	
+}
+#html5{
+		background: #f8f8f8;
+}
+#html5,.bootstrap{
+
+	padding: 80px 0;
+}
+#html5,.bootstrap h2{
+	font-weight: bold;
+}
+#html5 p,.bootstrap p{
+	line-height: 25px;
+}
+#cowers{
+	background: #f8f8f8;
+	padding: 80px 0;
+	text-align: center;
+}
+#cowers h2{
+	font-weight: bold;
+	padding-bottom: 60px;
+	
+}
+.col-md-3 #cowers{
+	margin-bottom: 20px;
+}
+#cowers{
+	background: #ffffff;
+}
+
+#cowers .btn{
+	background: #fff;
+	border: 1px solid #4ada95;
+	border-radius: 0px;
+	color: #4ada95;
+	margin-top: 20px;
+	margin-bottom: 30px; 
+	padding: 8px 40px;
+	transition: all0.3s;
+}
+#cowers .btn:hover{
+	background: #4ada95;
+	color: #fff;
+}
+#app{
+	padding: 80px 0;
+}
+#app h1{
+	font-weight: bold;
+	padding-bottom: 30px;
+}
+#app .btn{
+	margin: 10px 0;
+	background: #4ada95;
+	border: 1px solid #4ada95;
+	border-radius: 0;
+	padding: 6px 30px;
+	transition: all0.3s;
+	
+}
+#app .btn:hover{
+	background: rgb(44,142,120);
+}
+#contact{
+	background: url(../img/contact-bg.png) no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+#contact h2{
+	font-weight: bold;
+	margin-bottom: 25px;
+	margin-top: 0;
+}
+#contact p{
+	line-height: 25px;
+	margin-bottom: 20px;
+	
+	
+}
+#contact .form-control{
+	border-radius: 0;
+	height: 50px;
+	margin-bottom: 20px;
+	border: none;
+}
+#contact textarea.form-control{
+	height: auto;
+}
+#contact input[type="submit"]{
+	background: #40D2B1;
+	color: #fff;
+	font-weight: bold;
+	transition: all1s;
+}
+#contact input[type="submit"]:hover{
+	background: rgb(44,142,120);
+	
+}
+footer{
+	font-weight: bold;
+	text-align: center;
+	padding: 20px 0;
+}
